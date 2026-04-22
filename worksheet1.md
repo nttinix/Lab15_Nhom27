@@ -7,5 +7,5 @@
   - Câu trả lời phải nhất quán với chính sách giá, bảo hành và thông tin sản phẩm chính thức để tránh tư vấn sai gây ảnh hưởng kinh doanh.
   - Hệ thống cần tích hợp được với các kênh hiện có như website, CRM hoặc hệ thống chăm sóc khách hàng để đội vận hành dễ sử dụng và theo dõi.
 - Mô hình triển khai được chọn: `Hybrid`.
-- Lý do 1: dữ liệu nội bộ quan trọng như thông tin khách hàng, lịch sử chat và kết nối CRM nên được giữ trong môi trường doanh nghiệp để tăng khả năng kiểm soát và tuân thủ.
-- Lý do 2: phần suy luận mô hình hoặc một số dịch vụ AI có thể tận dụng hạ tầng `cloud` để linh hoạt mở rộng khi lưu lượng khách hàng tăng cao, đặc biệt trong các đợt ra mắt xe hoặc khuyến mãi.
+  - Lý do 1: dữ liệu nội bộ quan trọng như thông tin khách hàng, lịch sử chat và kết nối CRM nên được giữ trong môi trường doanh nghiệp để tăng khả năng kiểm soát và tuân thủ.
+  - Lý do 2: phần suy luận mô hình hoặc một số dịch vụ AI có thể tận dụng hạ tầng `cloud` để linh hoạt mở rộng khi lưu lượng khách hàng tăng cao, đặc biệt trong các đợt ra mắt xe hoặc khuyến mãi.
