@@ -1,12 +1,11 @@
 ### Enterprise Deployment Clinic
-
 - Bối cảnh tổ chức sử dụng hệ thống: chatbot được triển khai cho cửa hàng ô tô điện VinFast để hỗ trợ khách hàng trên website, fanpage hoặc kênh chat nội bộ của đội tư vấn.
 - Dữ liệu hệ thống sẽ động đến: thông tin sản phẩm và phiên bản xe, bảng giá, chương trình khuyến mãi, chính sách bảo hành, câu hỏi của khách hàng, lịch sử hội thoại và có thể cả thông tin liên hệ như tên, số điện thoại hoặc nhu cầu mua xe.
 - Mức độ nhạy cảm của dữ liệu: dữ liệu sản phẩm và thông số xe là mức nhạy cảm thấp đến trung bình; dữ liệu khách hàng, lịch sử tư vấn và thông tin liên hệ là dữ liệu nhạy cảm hơn vì liên quan đến quyền riêng tư và trải nghiệm chăm sóc khách hàng.
-- 3 ràng buộc `enterprise` lớn nhất:
-- Phải bảo vệ dữ liệu khách hàng và lịch sử hội thoại, tránh rò rỉ thông tin cá nhân ra ngoài hệ thống không kiểm soát.
-- Câu trả lời phải nhất quán với chính sách giá, bảo hành và thông tin sản phẩm chính thức để tránh tư vấn sai gây ảnh hưởng kinh doanh.
-- Hệ thống cần tích hợp được với các kênh hiện có như website, CRM hoặc hệ thống chăm sóc khách hàng để đội vận hành dễ sử dụng và theo dõi.
+- 3 ràng buộc `enterprise` lớn nhất gồm:
+  - Phải bảo vệ dữ liệu khách hàng và lịch sử hội thoại, tránh rò rỉ thông tin cá nhân ra ngoài hệ thống không kiểm soát.
+  - Câu trả lời phải nhất quán với chính sách giá, bảo hành và thông tin sản phẩm chính thức để tránh tư vấn sai gây ảnh hưởng kinh doanh.
+  - Hệ thống cần tích hợp được với các kênh hiện có như website, CRM hoặc hệ thống chăm sóc khách hàng để đội vận hành dễ sử dụng và theo dõi.
 - Mô hình triển khai được chọn: `Hybrid`.
 - Lý do 1: dữ liệu nội bộ quan trọng như thông tin khách hàng, lịch sử chat và kết nối CRM nên được giữ trong môi trường doanh nghiệp để tăng khả năng kiểm soát và tuân thủ.
 - Lý do 2: phần suy luận mô hình hoặc một số dịch vụ AI có thể tận dụng hạ tầng `cloud` để linh hoạt mở rộng khi lưu lượng khách hàng tăng cao, đặc biệt trong các đợt ra mắt xe hoặc khuyến mãi.
